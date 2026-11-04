@@ -144,6 +144,10 @@ vite.config.ts.timestamp-*
 
 # Astro generated types
 .astro/
+# macOS
+.DS_Store
 
+# Vite/frontend build output
+dist/
 # Turbo Repo
 .turbo
