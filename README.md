@@ -5,43 +5,43 @@ one project per concept, no tutorial hell.
 
 **Stack:** Vanilla JS → React → TypeScript → Node/Express → Neon Postgres → Next.js
 
-Each project is built up to three times: vanilla → React → TypeScript,
-so this repo also documents how the same app evolves across technologies.
+Each project is built up to three times: vanilla → React → TypeScript, so this repo also documents how the same app evolves across technologies.
 
 ## Progress
 
 ### Phase 1: Vanilla JS
 
-- [x] 01 Digital Clock — setInterval, Date, DOM text updates
-- [ ] 02 Calculator — button events, state in variables
-- [ ] 03 Stopwatch — clearInterval, state flags
-- [ ] 04 Password Generator — Math.random, Clipboard API
-- [ ] 05 Quiz App — arrays of objects, rendering from data
-- [ ] 06 To-Do List — CRUD, event delegation, localStorage
-- [ ] 07 Pomodoro Timer — state machine, combined timers
-- [ ] 08 Notes App — editing items, first ES modules split
-- [ ] 09 Typing Speed Test — keydown events, WPM math
-- [ ] 10 Weather App — fetch, async/await, loading/error UI
-- [ ] 11 Expense Tracker — map/filter/reduce, grouping, modules
-- [ ] 12 Form Validator — regex, validation messages
-- [ ] 13 Currency Converter — API + dropdowns, number formatting
-- [ ] 14 Memory Card Game — shuffling, matching logic, game state
-- [ ] 15 Image Gallery — modal, keyboard navigation
-- [ ] 16 Countdown Timer — Date math, interval logic
-- [ ] 17 Recipe Finder — debouncing, list rendering from API
-- [ ] 18 Drag and Drop Kanban — DnD API, re-render from state
-- [ ] 19 Movie Search — pagination, API state patterns
-- [ ] 20 Mini E-commerce Cart — derived state, totals, localStorage
-- [ ] 21 Flashcards App — randomization, flip state
-- [ ] 22 Markdown Editor — parsing, live preview *(Stretch)*
-- [ ] 23 Calendar App — grid rendering, nested loops *(Stretch)*
-- [ ] 24 Snake Game — canvas, game loop, collision *(Stretch)*
-- [ ] 25 Drawing App — canvas, mouse events
-- [ ] 26 Chat UI — message rendering, auto-scroll
-- [ ] 27 Mini Social Feed — nested data, localStorage
-- [ ] 28 Portfolio Website — component-like structure, responsive CSS
+- [x] 01-digital-clock — setInterval, Date, DOM text updates
+- [ ] 02-calculator — button events, state in variables
+- [ ] 03-stopwatch — clearInterval, state flags
+- [ ] 04-password-generator — Math.random, Clipboard API
+- [ ] 05-quiz-app — arrays of objects, rendering from data
+- [ ] 06-todo-list — CRUD, event delegation, localStorage
+- [ ] 07-pomodoro-timer — state machine, combined timers
+- [ ] 08-notes-app — editing items, first ES modules split
+- [ ] 09-typing-speed-test — keydown events, WPM math
+- [ ] 10-weather-app — fetch, async/await, loading/error UI
+- [ ] 11-expense-tracker — map/filter/reduce, grouping, modules
+- [ ] 12-form-validator — regex, validation messages
+- [ ] 13-currency-converter — API + dropdowns, number formatting
+- [ ] 14-memory-card-game — shuffling, matching logic, game state
+- [ ] 15-image-gallery — modal, keyboard navigation
+- [ ] 16-countdown-timer — Date math, interval logic
+- [ ] 17-recipe-finder — debouncing, list rendering from API
+- [ ] 18-drag-and-drop-kanban — DnD API, re-render from state
+- [ ] 19-movie-search — pagination, API state patterns
+- [ ] 20-mini-ecommerce-cart — derived state, totals, localStorage
+- [ ] 21-flashcards-app — randomization, flip state
+- [ ] 22-markdown-editor — parsing, live preview *(Stretch)*
+- [ ] 23-calendar-app — grid rendering, nested loops *(Stretch)*
+- [ ] 24-snake-game — canvas, game loop, collision *(Stretch)*
+- [ ] 25-drawing-app — canvas, mouse events
+- [ ] 26-chat-ui — message rendering, auto-scroll
+- [ ] 27-mini-social-feed — nested data, localStorage
+- [ ] 28-portfolio-website — component-like structure, responsive CSS
 
-### Concept checklist (gate before React)
+### Concept Checklist (Gate Before React)
+
 - [ ] map, filter, reduce, find, some
 - [ ] Destructuring + spread operator
 - [ ] Arrow functions and callbacks
@@ -54,6 +54,7 @@ so this repo also documents how the same app evolves across technologies.
 - [ ] DevTools breakpoints debugging
 
 ### Phases 2–8
+
 - [ ] Phase 2: React rebuilds
 - [ ] Phase 3: TypeScript conversion
 - [ ] Phase 4: Task Manager backend (Express + Neon)
@@ -67,18 +68,38 @@ so this repo also documents how the same app evolves across technologies.
 ## Project Index
 
 | # | Project | Vanilla | React | TS | Notes |
-|---|---------|---------|-------|----|-------|
-| 01 | Digital Clock | ✅ | ⬜ | ⬜ | |
-| 02 | Calculator | ⬜ | ⬜ | ⬜ | |
-| 05 | Quiz App | ⬜ | ⬜ | ⬜ | |
-| 06 | To-Do List | ⬜ | ⬜ | ⬜ | becomes Task Manager |
-| 10 | Weather App | ⬜ | ⬜ | ⬜ | API-key proxy later |
-| 11 | Expense Tracker | ⬜ | ⬜ | ⬜ | full ladder project B |
-| 12 | Form Validator | ⬜ | ⬜ | ⬜ | |
-| 14 | Memory Card Game | ⬜ | ⬜ | ⬜ | |
-| 19 | Movie Search | ⬜ | ⬜ | ⬜ | |
-| 20 | Mini Cart | ⬜ | ⬜ | ⬜ | |
-| 26 | Chat UI | ⬜ | — | — | AI chatbot upgrade later |
-| 28 | Portfolio Website | ⬜ | — | — | rebuilt in Next.js |
+|---|---|---|---|---|---|
+| 01 | 01-digital-clock | [x] | [ ] | [ ] | |
+| 02 | 02-calculator | [ ] | [ ] | [ ] | |
+| 05 | 05-quiz-app | [ ] | [ ] | [ ] | |
+| 06 | 06-todo-list | [ ] | [ ] | [ ] | becomes Task Manager |
+| 10 | 10-weather-app | [ ] | [ ] | [ ] | API-key proxy later |
+| 11 | 11-expense-tracker | [ ] | [ ] | [ ] | full ladder project B |
+| 12 | 12-form-validator | [ ] | [ ] | [ ] | |
+| 14 | 14-memory-card-game | [ ] | [ ] | [ ] | |
+| 19 | 19-movie-search | [ ] | [ ] | [ ] | |
+| 20 | 20-mini-ecommerce-cart | [ ] | [ ] | [ ] | |
+| 26 | 26-chat-ui | [ ] | — | — | AI chatbot upgrade later |
+| 28 | 28-portfolio-website | [ ] | — | — | rebuilt in Next.js |
 
-*(Full 28-project table lives in the Progress checklist above; this table tracks only the convertible/core projects.)*
+*(Full 28-project list lives in the Progress checklist above; this table tracks only the convertible/core projects.)*
+
+## Folder Naming Convention
+
+All project folders follow the same naming convention:
+
+- Two-digit project number (`01`, `02`, etc.)
+- Lowercase letters
+- Hyphens between words
+- No spaces or underscores
+
+Example:
+
+```text
+02-calculator/
+├── vanilla/
+├── react/
+└── typescript/
+```
+
+This keeps project names consistent across the repository and makes it easy to compare how each project evolves across technologies.
